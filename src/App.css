@@ -1,0 +1,42 @@
+body{
+  background-color: #161616;
+}
+.app {
+    background: url('/img/fondo-clima.jpg') center / cover;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  .card__error{
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: #161616; 
+      color: darkcyan;
+      text-transform: uppercase;
+      background-image: linear-gradient(-250deg, #d4e912 0%, #12ffcc 50%, #f54f59 100%);
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: bgText 2.5s linear infinite ;
+    }
+    .card__text{
+      position: relative;
+      top: -150px;
+      font-size: 2em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    @keyframes bgText{
+      to{
+        background-position: 200% center;
+      }
+    }
+
+
+
+
+    
